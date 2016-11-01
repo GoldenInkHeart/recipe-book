@@ -14,8 +14,8 @@ recipes: Recipe[]=[];
 recipe = new Recipe('First Recipe','Test description','http://www.taste.com.au/images/recipes/tm/2014/09/cauliflower-mac-n-cheese-31088_h.jpeg');
 
  constructor() { }
-  ngOnInit() {
-  }
+
+ ngOnInit() { }
 
 onSelected(recipe:Recipe){
   this.recipeSelected.emit(recipe);
